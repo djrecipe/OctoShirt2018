@@ -20,7 +20,10 @@ void setup()
 void loop()
 {
   uint32_t color = GetColor(currentColorIndex);
-  pixels.setPixelColor(0, pixels.Color(150,0,0));
+  for(int i=0; i<COUNT; i++)
+  {
+    pixels.setPixelColor(i, color); 
+  }
   pixels.show();
   
   IncrementColorIndex();
