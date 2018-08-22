@@ -1,5 +1,5 @@
 #define PIN 5
-#define COUNT 1
+#define COUNT 4
 #define WHEEL_SIZE 384 // wheel sizes > 384 will cause gaps in the rainbow, while < 384 will cause truncated rainbow
 
 #include <Adafruit_NeoPixel.h>
